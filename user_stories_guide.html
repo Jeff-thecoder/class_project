@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!---------------------------------------------------------------- 
+Jeff B  
+Creation Date:  1/30/2024
+Agile Class Project
+user_stories_guide.html
+----------------------------------------------------------------->
+
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Agile Class Project - Create Website for Product Owner">
+<meta name="keywords" content="HTML, CSS, JavaScript, FetchAPI, Agile, Scrum">
+<meta name="author" content="John B">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Line Awesome Icons   https://icons8.com/icons -->
+<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+
+<link rel="stylesheet" href="css/bootstrap_v5_3_1.css">
+<link rel="stylesheet" href="css/index.css">
+
+<link rel="shortcut icon" href="images/cart_icon.png" type="image/x-icon">
+
+<title>Scotts : Stories-Guide</title>
+</head>
+<body>
+
+<!-- Top Navbar -->
+<div class="top-navbar-wrapper custom-background">
+    <nav class="navbar navbar-expand-lg navbar-dark top-navbar">
+        <div class="container-fluid">
+            <ul class="d-flex gap-3  me-auto mb-2 mb-lg-0 w-100 list-unstyled">
+                <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" aria-current="page" href="#">
+                    <span><img class="fw-bold" src="./images/icons8-location-16(1).png" alt=""></span><span>Ship to 83401</span></a></li>
+                <li class="nav-item"><a class="nav-link d-flex gap-2 align-items-center" aria-current="page" href="#">
+                    <span><img src="./images/icons8-store-16.png" alt=""></span>Idaho Falls</a></li>
+                    <li class="nav-item ms-auto"><a class="nav-link" href="#">Weekly Ad</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Find Stores</a></li>
+            </ul>
+        </div>
+        </nav>
+    </div>
+
+<!-- Main Navbar -->
+<div class="main-navbar-wrapper">
+    <nav class="navbar navbar-expand-lg main-navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand me-5" href="index.html">
+            <h3 class="position-relative">Scott's</h3>
+            <span class="position-absolute fs-6 text-info top-50 mt-1"> Really Cool Gadgets</span>
+         </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto ms-0 ms-lg-5 mt-2 mt-lg-0 p-3 p-lg-0">
+              <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+              <li class="nav-item"><a class="nav-link" href="user_stories_guide.html">Stories-Guide</a></li>
+              <li class="d-lg-none">
+                <a title="cart" href="cart.html">
+                  <img src="./images/cart_icon.png" alt="" width="26"></a> 
+              </li>
+              <li class="d-lg-none">
+                <a class="nav-link text-decoration-none d-flex" type="button" aria-current="page" href="#">
+                  <div class="pe-2"><img class="" src="./images/icons8-person-32.png" alt="" width="22"></div>
+                  <span class="pt-2">Sign in</span></a>
+              </li>
+              <li class="d-lg-none">
+                <form class="d-flex flex-grow-1 position-relative ms-2" role="search">
+                  <input class="form-control me-2" type="search" placeholder="What can we help you find?" aria-label="Search">
+                  <button class="d-flex btn p-0" title="search" type="submit">
+                    <img src="./images/icons8-search-32(1).png" alt="" >
+                  </button>
+                </form>
+              </li>
+            </ul>
+            <form class="d-flex flex-grow-1 position-relative ms-5 form" role="search">
+              <input class="form-control me-2" type="search" placeholder="What can we help you find?" aria-label="Search">
+              <button class="d-flex btn p-0" title="search" type="submit">
+                <img src="./images/icons8-search-32(1).png" alt="" >
+              </button>
+            </form>
+            <ul class="signin-and-cart d-flex align-items-center py-0 my-0">
+                <li class=""><a class="nav-link text-decoration-none" type="button" aria-current="page" href="#">
+                    <div class="pb-1 pe-2"><img class="" src="./images/icons8-person-32.png" alt="" width="22"></div>
+                    <span>Sign in</span></a>
+                </li>
+                <li class=""><a title="cart" href="cart.html">
+                    <img src="./images/cart_icon.png" alt="" width="26"></a> 
+                </li>
+            </ul>
+  
+          </div>
+        </div>
+      </nav>
+  </div>
+
+<!-- Page Content -->
+
+<div class="container">
+   
+    <div class="row">
+
+        <h3>User Story Template</h3>
+
+        <p>In theory, user stories are basically product features, requirements or tasks that add value to the end customer. 
+            In practice, most Agile Teams use user stories as tasks that reflect what they are trying to accomplish, which of course is directed to meeting a customer need or requirement.</p>
+        <p>As a <span>user</span> (who) I want to… <span>what</span> so that… <span>why</span>
+            Example: As a front end developer I need to ensure the app is responsive so that it can work on different screen sizes</p>
+        <p>But using the format above to write user stories, requires more effort and space (which is limited if you're using post-it notes). Plus it can get a bit repetitive and redundant, so…</p>
+        <p>In practice, most Agile Teams write user stories as short tasks which start with a verb
+            <span>verb</span> and the task that is being performed (written in a short and concise manner)
+            Example: Ensure the app is responsive so that it can work on different screen sizes</p>
+        
+            <ul>
+                <li class="fs-4">Examples of verbs to start a user story would be: </li>
+                <li>Create</li>
+                <li>Develop</li>
+                <li>Build</li>
+                <li>Plan</li>
+                <li>Research</li>
+                <li>Perform</li>
+                <li>Test</li>
+                <li>and so on....</li>
+            </ul>
+    </div>
+
+
+    <div class="row my-2">
+         <ul>
+            <li>
+                <h4>Who</h4>
+                <p>Write down who will be impacted by the change (e.g. people in Procurement, specifically those using software X).</p>
+            </li>
+            <li>
+                <h4>What</h4>
+                <p>Specify what the change is about. Keep it short and to the point (e.g. new mobile devices will now have the antivirus XZY installed).</p>
+            </li>
+            <li>
+                <h4>When</h4>
+                <p>Describe when the change will occur (e.g. The process will begin on July 20th YYYY as new mobile devices are delivered to staff members across the business).</p>
+            </li>
+            <li>
+                <h4>Why</h4>
+                <p>Let people know briefly why the change is occurring. What's in it for them and what's in it for the business. Answer why are we doing this?</p>
+            </li>
+            <li>
+                <h4>How</h4>
+                <p>Briefly explain how the change will occur. For example, we will migrate users to the new system in batches. People will be notified about status pre. During and post migration.</p>
+            </li>
+            <li>
+                <h4>Impact</h4>
+                <p>List out impact to users (if any). For example, there will be an outage of half an hour from 9-9.30am or there won't be an outage because the change will occur during non-business hours (zero impact).</p>
+            </li>
+         </ul>
+     </div>
+
+
+</div>  <!-- end container -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
